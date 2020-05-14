@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "attività-ConsoleApp_Project",
+      "appliesTo": "VenditaVeicoliSolution/ConsoleApp_Project/",
+      "type": "launch"
+    }
+  ]
+}
