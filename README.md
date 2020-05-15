@@ -19,24 +19,3 @@ Import OpenXml packages:
 ### OleDbConnection.ConnectionString
 Stringa di connessione del provider OLE DB che contiene il nome dell'origine dati e altri parametri necessari a stabilire la connessione iniziale. Il valore predefinito è una stringa vuota.
 
-Nell'esempio seguente viene creata una OleDbConnection e vengono impostate alcune proprietà nella stringa di connessione.
-
-`static void OpenConnection(string connectionString)
-{
-    using (OleDbConnection connection = new OleDbConnection(connectionString))
-    {
-        try
-        {
-            connection.Open();
-            Console.WriteLine("ServerVersion: {0} \nDataSource: {1}",
-                connection.ServerVersion, connection.DataSource);
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
-        // The connection is automatically closed when the
-        // code exits the using block.
-    }
-}`
-
