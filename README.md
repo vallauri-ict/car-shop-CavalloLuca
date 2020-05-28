@@ -19,3 +19,15 @@ Import OpenXml packages:
 ### OleDbConnection.ConnectionString
 Stringa di connessione del provider OLE DB che contiene il nome dell'origine dati e altri parametri necessari a stabilire la connessione iniziale. Il valore predefinito è una stringa vuota.
 
+
+How to contact me:
+ 
+Contacts | Links 
+------------ | -------------
+School mail | l.cavallo.0928@vallauri.edu
+Private mail | caval.luca02@gmail.com
+Instagram | [Lucacavallo10_](https://www.instagram.com/lucacavallo10_/)
+Website | [lukii.altervista.org](http://lukii.altervista.org/)
+
+
+**4B INF IIS G. VALLAURI**  www.vallauri.edu
